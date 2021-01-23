@@ -1,0 +1,26 @@
+body{
+	text-align: center;
+	background-image: url(sample2.jpg);
+	background-size: cover;
+}
+input{
+	height: 40px;
+	width: 30%;
+	border-radius: 40px;
+	outline: none;
+}
+h2{
+	color:white;
+	font-size: 30px;
+}
+label{
+    color:white;
+    font-size: 23px;
+}
+input[type="text"]{
+	padding: 20px 20px;
+	box-sizing: border-box; 
+}
+input[type="submit"]:hover{
+  background-color: pink;
+}

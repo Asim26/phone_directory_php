@@ -1,0 +1,29 @@
+a{text-decoration: none;
+      color: black;
+  }
+
+body{
+      background-image: url('background.jpeg');
+      background-size: cover;      	
+      text-align: center;
+      font-size: 14px;
+      }
+table{
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      }
+input, .back{
+      height: 40px;
+      width: 100%;
+      border-radius: 40px;
+      outline: none;
+      padding: 20px;
+      box-sizing: border-box;
+      cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: pink;
+  cursor: pointer;
+}
